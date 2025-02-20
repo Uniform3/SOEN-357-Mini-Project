@@ -1,1 +1,0 @@
-# SOEN-357-Mini-Project
