@@ -157,16 +157,16 @@
                         currentIndex = (currentIndex + 1) % images.length;
 
                         // Apply the slide-out animation
-                        imageElement.style.animation = "slideOut 0.5s forwards";
+                        imageElement.style.animation = "slideOut 1.75s forwards";
 
                         setTimeout(() => {
                             imageElement.src = images[currentIndex];
                             // Apply the slide-in animation
-                            imageElement.style.animation = "slideIn 0.5s forwards";
+                            imageElement.style.animation = "slideIn 1.75s forwards";
                         }, 500); // Matches animation duration
                     }
 
-                    setInterval(changeImage, 3000); // Change image every 3 seconds
+                    setInterval(changeImage, 4500); // Change image every 3 seconds
                 </script>
 
 
